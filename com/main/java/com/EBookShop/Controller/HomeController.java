@@ -85,7 +85,7 @@ public class HomeController {
 			            	}
 			            }
 			        }, 
-			        36000
+			        600000
 			);
 		}
 		return "redirect:book_list";
