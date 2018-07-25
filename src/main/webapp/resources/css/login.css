@@ -1,0 +1,81 @@
+body{
+	font-size: 20px; 
+	background-color: gray; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+#container{
+	background-color: white; 
+	widith: 300px; 
+	padding: 50px; 
+	margin-left: 500px; 
+	margin-right: 500px; 
+	margin-top: 150px; 
+	text-align: center;	
+	-webkit-box-shadow: 7px 7px 38px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 38px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 38px 0px rgba(0,0,0,0.75);
+}
+input[type=text],input[type=password]{
+	width: 300px; 
+	background-color: #efefef; 
+	color: #666; 
+	border: 2px solid #ddd; 
+	border-radius: 5px;
+	font-size: 20px; 
+	padding: 10px; 
+}
+input[type=submit]{
+	width: 300px; 
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white; 
+	padding: 15px 10px; 
+	margin-top: 10px; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	letter-spacing:2px; 
+}
+input[type=submit]:hover{
+	background-color: #37b93d;
+}
+input[type=button]{
+	width: 300px; 
+	background-color: #3399ff;
+	font-size: 20px;
+	color: white; 
+	padding: 15px 10px; 
+	margin-top: 10px; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	letter-spacing:2px; 	
+}
+input[type=button]:hover{
+	background-color: #33ccff;
+}
+input.street{
+	width: 100px; 
+	background-color: #efefef; 
+	color: #666; 
+	border: 2px solid #ddd; 
+	border-radius: 5px;
+	font-size: 20px; 
+	padding: 10px; 
+}
+button{
+	width: 300px; 
+	background-color: #3399ff;
+	font-size: 20px;
+	color: white; 
+	padding: 15px 10px; 
+	margin-top: 10px; 
+	border: none; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	letter-spacing:2px; 	
+}
+button:hover{
+	background-color: #33ccff;
+}
